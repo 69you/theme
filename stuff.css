@@ -1,9 +1,9 @@
 /* search bar */
-div[class^="toolbar-"] div[class^="search-"]>div[class^="searchBar-"]:hover,
+/* div[class^="toolbar-"] div[class^="search-"]>div[class^="searchBar-"]:hover,
 div[class^="toolbar-"] div[class~="focused"]>div[class^="searchBar-"] {
     width: 400px;
     /*search bar on size hover & select */
-}
+/* } */
 
 /* Channel animation */
 .mainContent-20q_Hp {
@@ -86,5 +86,5 @@ div[class^="toolbar-"] div[class^="search-"] > div[class^="searchBar-"]  {
     /*search bar size when left alone*/
     transition-duration: 300ms;
     /*transition time for expanding search bar*/
-    counter-set: "搜尋";
+    /* counter-set: "搜尋"; */
 }
