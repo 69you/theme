@@ -18,6 +18,7 @@
 @import url("https://raw.githubusercontent.com/69you/dc-thene/master/cat.css");
 @import url("https://raw.githubusercontent.com/69you/dc-thene/master/stuff.css");
 /* @import url(https://seele1306.github.io/Snippets/BetterProfiles/import.css); */
+
 /* SETTINGS */
 :root {
   --section-thickness: 2px; /* must be in pixels */
@@ -118,9 +119,4 @@
   --bd-blue: var(--main-color); /* betterdiscord main color [default: var(--main-color)] */
   --bd-blue-hover: var(--hover-color); /* betterdiscord hover color [default: var(--hover-color)] */
   --bd-blue-active: var(--hover-color); /* betterdiscord active color [default: var(--hover-color)] */
-}
-
-#vc-membercount {
-    margin-top: 0.5em !important;
-    margin-bottom: -1em !important;
 }
