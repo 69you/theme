@@ -141,7 +141,7 @@
     /* USER POPOUT BACKGROUND */
     --user-popout-image: var(--background-image);
     /* app background image (link must be HTTPS) [default: var(--background-image)] */
-    --user-popout-position: calc(50% - 235px);
+    --user-popout-position: calc(50% - 170px);
     /* user popout background position [default: var(--background-position)] */
     --user-popout-size: var(--background-size);
     /* user popout background size [default: var(--background-size)] */
@@ -161,7 +161,7 @@
     /* user popout background grayscale (0 - 100%) [default: var(--background-grayscale)] */
     --user-popout-sepia: var(--background-sepia);
     /* user popout background sepia (0 - 100%) [default: var(--background-sepia)] */
-    --user-popout-blur: calc(var(--background-blur) + 2px);
+    --user-popout-blur: calc(var(--background-blur) + 1px);
     /* user popout background blur [default: calc(var(--background-blur) + 3px)] */
     --user-popout-overlay: rgba(0, 0, 0, 0.6);
     /* user popout overlay color [default: rgba(0, 0, 0, .6)] */
@@ -189,7 +189,7 @@
     /* user modal background grayscale (0 - 100%) [default: var(--background-grayscale)] */
     --user-modal-sepia: var(--background-sepia);
     /* user modal background sepia (0 - 100%) [default: var(--background-sepia)] */
-    --user-modal-blur: calc(var(--background-blur) + 2px);
+    --user-modal-blur: calc(var(--background-blur) + 1px);
     /* user modal background blur [default: calc(var(--background-blur) + 3px)] */
 
     /* THEME BD COLORS */
@@ -207,4 +207,7 @@
     --profile-accent-color: 250deg 45% 45%;
     --profile-transparency: 25%;
     --profile-border-radius: 8px;
+}
+.userPopoutInner-nv9Y92 {
+    max-height: 70vh;
 }
