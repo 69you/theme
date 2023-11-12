@@ -118,7 +118,8 @@
                 "savedPasswords": "password, Password"
             },
             "LoadingQuotes": {
-                "enabled": true
+                "enabled": true,
+                "replaceEvents": true
             },
             "MemberCount": {
                 "enabled": true
@@ -349,7 +350,7 @@
                 "enabled": false
             },
             "ReadAllNotificationsButton": {
-                "enabled": true
+                "enabled": false
             },
             "ServerListIndicators": {
                 "enabled": false
@@ -424,7 +425,8 @@
                         "showInChat": true,
                         "showInNotChat": true
                     }
-                }
+                },
+                "enabled": true
             },
             "SettingsStoreAPI": {
                 "enabled": true
@@ -451,7 +453,7 @@
             "ImageZoom": {
                 "enabled": true,
                 "size": 1000,
-                "zoom": 2.0770724824061926,
+                "zoom": 3.154144964812385,
                 "saveZoomValues": true,
                 "preventCarouselFromClosingOnClick": true,
                 "invertScroll": true,
@@ -482,7 +484,8 @@
             },
             "PinDMs": {
                 "enabled": true,
-                "pinOrder": 0
+                "pinOrder": 0,
+                "pinnedDMs": ""
             },
             "ReviewDB": {
                 "enabled": true,
@@ -620,6 +623,26 @@
             },
             "Dearrow": {
                 "enabled": false
+            },
+            "OnePingPerDM": {
+                "enabled": true,
+                "channelToAffect": "both_dms",
+                "allowMentions": false,
+                "allowEveryone": false
+            },
+            "PermissionFreeWill": {
+                "enabled": false,
+                "lockout": true,
+                "onboarding": true
+            },
+            "NoMosaic": {
+                "enabled": false
+            },
+            "NoTypingAnimation": {
+                "enabled": false
+            },
+            "SuperReactionTweaks": {
+                "enabled": false
             }
         },
         "notifications": {
@@ -632,7 +655,7 @@
             "authenticated": true,
             "url": "https://api.vencord.dev/69you",
             "settingsSync": true,
-            "settingsSyncVersion": 1695778201475
+            "settingsSyncVersion": 1699796321732
         },
         "macosTranslucency": false,
         "disableMinSize": false,
