@@ -9,16 +9,19 @@
  */
 
 /* Credits to Zerthox for making the original theme. */
-@import url(https://seele1306.github.io/BetterProfiles/import.css);
+
 /* IMPORT CSS */
 @import url(https://clearvision.github.io/ClearVision-v6/main.css);
 @import url(https://clearvision.github.io/Addons/whitney.css);
-@import url("https://minidiscordthemes.github.io/MinimalAddonCards/MinimalAddonCards.theme.css");
-@import url("https://minidiscordthemes.github.io/Snippets/RoleTint/RoleTint.css");
-@import url("https://raw.githubusercontent.com/69you/dc-thene/master/cat.css");
-@import url("https://raw.githubusercontent.com/69you/dc-thene/master/stuff.css");
-@import url("https://minidiscordthemes.github.io/Snippets/RoleTint/RoleTint.css");
-@import url(https://seele1306.github.io/Snippets/BetterProfiles/import.css);
+@import url(https://minidiscordthemes.github.io/MinimalAddonCards/MinimalAddonCards.theme.css);
+@import url(https://minidiscordthemes.github.io/Snippets/RoleTint/RoleTint.css);
+@import url(https://raw.githubusercontent.com/69you/dc-thene/master/cat.css);
+@import url(https://raw.githubusercontent.com/69you/dc-thene/master/stuff.css);
+@import url(https://minidiscordthemes.github.io/Snippets/RoleTint/RoleTint.css);
+@import url(https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/BetterProfiles/import.css);
+@import url(https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageUltilities/MessageTypes/import.css);
+@import url(https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageUltilities/TimestampBubbles/import.css);
+@import url(https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageUltilities/Username/import.css);
 
 /* SETTINGS */
 :root {
@@ -199,15 +202,10 @@
     /* betterdiscord hover color [default: var(--hover-color)] */
     --bd-blue-active: var(--hover-color);
     /* betterdiscord active color [default: var(--hover-color)] */
-}
-/* better profiles*/
-:root {
+
+    /* better profiles*/
     --test-color: hsl(250, 45%, 45%);
-    --section-thickness: 1px; /* must be in pixels */
     --profile-accent-color: 250deg 45% 45%;
     --profile-transparency: 25%;
     --profile-border-radius: 8px;
-}
-.userPopoutInner-nv9Y92 {
-    max-height: 70vh;
 }
