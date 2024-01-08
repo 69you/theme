@@ -5,7 +5,7 @@
         "autoUpdateNotification": true,
         "useQuickCss": true,
         "themeLinks": [
-            "https://raw.githubusercontent.com/69you/dc-thene/master/lynx_pela.css"
+            "https://raw.githubusercontent.com/refact0r/midnight-discord/master/midnight.css"
         ],
         "enableReactDevtools": true,
         "frameless": false,
@@ -227,7 +227,8 @@
                 "enabled": false
             },
             "SpotifyControls": {
-                "enabled": false
+                "enabled": true,
+                "hoverControls": false
             },
             "SpotifyCrack": {
                 "enabled": false
@@ -236,12 +237,13 @@
                 "enabled": false
             },
             "TimeBarAllActivities": {
-                "enabled": false
+                "enabled": true
             },
             "TypingIndicator": {
                 "enabled": true,
                 "includeMutedChannels": false,
-                "includeBlockedUsers": false
+                "includeBlockedUsers": false,
+                "includeCurrentChannel": true
             },
             "TypingTweaks": {
                 "enabled": true,
@@ -453,7 +455,7 @@
             "ImageZoom": {
                 "enabled": true,
                 "size": 1000,
-                "zoom": 3.154144964812385,
+                "zoom": 1.8616579859249538,
                 "saveZoomValues": true,
                 "preventCarouselFromClosingOnClick": true,
                 "invertScroll": true,
@@ -580,7 +582,10 @@
                 "enabled": false
             },
             "OpenInApp": {
-                "enabled": false
+                "enabled": true,
+                "spotify": true,
+                "steam": true,
+                "epic": true
             },
             "FavoriteGifSearch": {
                 "enabled": false
@@ -642,7 +647,32 @@
                 "enabled": false
             },
             "SuperReactionTweaks": {
+                "enabled": false,
+                "superReactByDefault": true,
+                "unlimitedSuperReactionPlaying": false,
+                "superReactionPlayingLimit": 20
+            },
+            "ClientTheme": {
                 "enabled": false
+            },
+            "FixImagesQuality": {
+                "enabled": true
+            },
+            "Decor": {
+                "enabled": false
+            },
+            "NotificationVolume": {
+                "enabled": false
+            },
+            "XSOverlay": {
+                "enabled": false,
+                "ignoreBots": false,
+                "pingColor": "#7289da",
+                "channelPingColor": "#8a2be2",
+                "soundPath": "default",
+                "timeout": 1,
+                "opacity": 1,
+                "volume": 0.2
             }
         },
         "notifications": {
@@ -655,11 +685,11 @@
             "authenticated": true,
             "url": "https://api.vencord.dev/69you",
             "settingsSync": true,
-            "settingsSyncVersion": 1699796321732
+            "settingsSyncVersion": 1704708887458
         },
         "macosTranslucency": false,
         "disableMinSize": false,
         "enabledThemes": []
     },
-    "quickCss": ""
+    "quickCss": "button:has([d=\"M4 6a4 4 0 0 1 4-4h.09c1.8 0 3.39 1.18 3.91 2.9A4.09 4.09 0 0 1 15.91 2H16a4 4 0 0 1 3.46 6H20a2 2 0 0 1 2 2v1.5a.5.5 0 0 1-.5.5h-19a.5.5 0 0 1-.5-.5V10c0-1.1.9-2 2-2h.54A3.98 3.98 0 0 1 4 6Zm12 2a2 2 0 1 0 0-4h-.09c-.96 0-1.8.65-2.02 1.58L13.29 8H16Zm-5.89-2.42.6 2.42H8a2 2 0 1 1 0-4h.09c.96 0 1.8.65 2.02 1.58Z\"]) {\r\n  display: none;\r\n}"
 }
