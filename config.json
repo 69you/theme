@@ -81,9 +81,6 @@
                 "attemptToPreventCrashes": true,
                 "attemptToNavigateToHome": false
             },
-            "DisableDMCallIdle": {
-                "enabled": true
-            },
             "EmoteCloner": {
                 "enabled": false
             },
@@ -122,7 +119,9 @@
                 "replaceEvents": true
             },
             "MemberCount": {
-                "enabled": true
+                "enabled": true,
+                "memberList": true,
+                "toolTip": true
             },
             "MessageLinkEmbeds": {
                 "enabled": true,
@@ -138,9 +137,6 @@
                 "ignoreUsers": "",
                 "ignoreChannels": "",
                 "ignoreGuilds": ""
-            },
-            "MuteNewGuild": {
-                "enabled": false
             },
             "NoBlockedMessages": {
                 "enabled": false
@@ -455,7 +451,7 @@
             "ImageZoom": {
                 "enabled": true,
                 "size": 1000,
-                "zoom": 1.8616579859249538,
+                "zoom": 1.8616579859249547,
                 "saveZoomValues": true,
                 "preventCarouselFromClosingOnClick": true,
                 "invertScroll": true,
@@ -492,7 +488,6 @@
             "ReviewDB": {
                 "enabled": true,
                 "notifyReviews": true,
-                "token": "DC47nvbs3rklcpzP5bmvBxNuOXzDjf",
                 "userType": 0,
                 "showWarning": true,
                 "hideTimestamps": false,
@@ -515,7 +510,8 @@
                 "hideBlockedUsers": true
             },
             "SendTimestamps": {
-                "enabled": true
+                "enabled": true,
+                "replaceMessageContents": true
             },
             "ShowMeYourName": {
                 "enabled": true,
@@ -673,6 +669,36 @@
                 "timeout": 1,
                 "opacity": 1,
                 "volume": 0.2
+            },
+            "DisableCallIdle": {
+                "enabled": true
+            },
+            "ChatInputButtonAPI": {
+                "enabled": true
+            },
+            "BetterGifPicker": {
+                "enabled": false
+            },
+            "FixCodeblockGap": {
+                "enabled": false
+            },
+            "NewGuildSettings": {
+                "enabled": false
+            },
+            "WebKeybinds": {
+                "enabled": true
+            },
+            "FixYoutubeEmbeds": {
+                "enabled": false
+            },
+            "BetterRoleContext": {
+                "enabled": false
+            },
+            "ResurrectHome": {
+                "enabled": false
+            },
+            "FriendsSince": {
+                "enabled": false
             }
         },
         "notifications": {
@@ -685,7 +711,7 @@
             "authenticated": true,
             "url": "https://api.vencord.dev/69you",
             "settingsSync": true,
-            "settingsSyncVersion": 1704708887458
+            "settingsSyncVersion": 1711380805889
         },
         "macosTranslucency": false,
         "disableMinSize": false,
